@@ -6,7 +6,8 @@
 ### [Лабораторна робота №1](https://docs.google.com/document/d/1uaVk0PjKpxLUcF0JX5VL9ZkAUqibv7yz1pdxd3MvAVA/edit?usp=sharing)
 **Загальне завдання:** розробити серверну частину Web-додатку та протестувати її функціональність.
 
-### Лабораторна робота №2
+### [Лабораторна робота №2](https://docs.google.com/document/d/1NI1jqSqoUW77iovjXNLOGax061RzgZtReF-unlKaS6s/edit?usp=sharing)
+**Загальне завдання:** розробити функції обміну даними між користувачами Web-додатка, а також адміністрування користувачами у реальному часі.
 
 ### Лабораторна робота №3
 

@@ -24,11 +24,12 @@ router = DefaultRouter()
 router.register(r'contacts', views.ContactViewSet, basename="contacts")
 
 urlpatterns = [
-    path('', include(router.urls)),
-    path('users/', include('users.urls')),
-    path('api/contacts/<str:user_id>/', views.UserContactsView.as_view()),
-    path('admin/', admin.site.urls),
-    path('api/', include('users.urls', namespace='users')),
-    path('doc/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
-    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
+   path('', include(router.urls)),
+   path('users/', include('users.urls')),
+   path('api/contacts/<str:user_id>/', views.UserContactsView.as_view()),
+   path('admin/', admin.site.urls),
+   path('api/', include('users.urls', namespace='users')),
+   path('chat/', include('chat.urls')),
+   path('doc/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
+   path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 ]
