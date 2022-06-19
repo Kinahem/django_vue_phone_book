@@ -9,7 +9,8 @@
 ### [Лабораторна робота №2](https://docs.google.com/document/d/1NI1jqSqoUW77iovjXNLOGax061RzgZtReF-unlKaS6s/edit?usp=sharing)
 **Загальне завдання:** розробити функції обміну даними між користувачами Web-додатка, а також адміністрування користувачами у реальному часі.
 
-### Лабораторна робота №3
+### [Лабораторна робота №3](https://docs.google.com/document/d/1Juf-QjhRY64Lla20zxNOyrwSUQPN5DOOIcXUvxTKKJ4/edit?usp=sharing)
+**Загальне завдання:** розробити функції щодо виконання асинхронних задач Web-додатка за допомогою бібліотеки Celery. 
 
 ## Програмування інтерфейсів користувача
 ### [Лабораторна робота №1](https://docs.google.com/document/d/1ruWMvyN1R3lV7Py5JjYJRC3f93Fw5orgHrrcUUGLe0M/edit?usp=sharing)
