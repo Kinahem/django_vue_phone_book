@@ -31,7 +31,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'users',
     'contacts',
-    'chat',    
+    'chat',
+    'tasks',
 ]
 
 MIDDLEWARE = [
@@ -76,9 +77,18 @@ DATABASES = {
     }
 }
 
+# CHANNEL_LAYERS = {
+#     "default": {
+#         "BACKEND": "channels.layers.InMemoryChannelLayer"
+#     }
+# }
+
 CHANNEL_LAYERS = {
     "default": {
-        "BACKEND": "channels.layers.InMemoryChannelLayer"
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {
+            'hosts': [('127.0.0.1', 6379)]
+        }
     }
 }
 
@@ -130,3 +140,16 @@ REST_FRAMEWORK = {'DEFAULT_AUTHENTICATION_CLASSES': (
 AUTH_USER_MODEL = 'users.User'
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+# CELERY
+CELERY_BROKER_URL = 'redis://localhost:6379'
+
+CELERY_CREATE_MISSING_QUEUES = True
+
+# Email settings
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'misha.turkin.2000@gmail.com'
+EMAIL_HOST_PASSWORD = 'ndyxiqnhizmquhrc'
+EMAIL_PORT = 587
