@@ -1,11 +1,11 @@
 <template>
     <body>
         <h1>Update Contact</h1>
-        <form @submit.prevent="updateContact">
-            <input type="text" placeholder="Name" required v-model="full_name" style="margin-right: .5em"/>
-            <input type="number" placeholder="Phone" v-model="phone" style="margin-right: .5em"/>
-            <input type="email" placeholder="Email" v-model="email" style="margin-right: .5em"/>
-            <input type="text" placeholder="Info" v-model="info" style="margin-right: .5em"/>
+        <form class="update-form" @submit.prevent="updateContact">
+            <input class="update-fullname" type="text" placeholder="Name" required v-model="full_name" style="margin-right: .5em"/>
+            <input class="update-number" type="number" placeholder="Phone" v-model="phone" style="margin-right: .5em"/>
+            <input class="update-email" type="email" placeholder="Email" v-model="email" style="margin-right: .5em"/>
+            <input class="update-info" type="text" placeholder="Info" v-model="info" style="margin-right: .5em"/>
             <div class="submit">
                 <button id="submit_button" style="margin-top: .5em">Update Contact</button>
             </div>

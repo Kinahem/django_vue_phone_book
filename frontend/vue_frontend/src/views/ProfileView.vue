@@ -1,7 +1,7 @@
 <template>
     <body>
         <h1>Profile</h1>
-        <table>
+        <table class="profile-table">
         <tr>
             <th>Email:</th>
             <td>{{user_info.email}}</td>

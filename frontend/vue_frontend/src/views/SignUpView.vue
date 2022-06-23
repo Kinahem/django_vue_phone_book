@@ -1,6 +1,6 @@
 <template>
     <body>
-        <form @submit.prevent="handleSubmit">
+        <form class="signup-form" @submit.prevent="handleSubmit">
             <p v-if="errors" id="err_bar">
                 <ul>
                     <li v-for="(val, index) in errors" :key="val.id">
@@ -8,12 +8,12 @@
                     </li>
                 </ul>
             </p>
-            <input type="email" placeholder="Email" required v-model="email" style="margin-right: .5em"/>
-            <input type="text" placeholder="Username" required v-model="username" style="margin-right: .5em"/>
-            <input type="password" placeholder="Password" required v-model="password" style="margin-right: .5em"/>
-            <input type="text" placeholder="Full Name" required v-model="full_name" style="margin-right: .5em"/>
-            <input type="date" placeholder="Birth Date" required v-model="birth_date" style="margin-right: .5em"/>
-            <select required v-model="gender">
+            <input class="signup-email" type="email" placeholder="Email" required v-model="email" style="margin-right: .5em"/>
+            <input class="signup-username" type="text" placeholder="Username" required v-model="username" style="margin-right: .5em"/>
+            <input class="signup-password" type="password" placeholder="Password" required v-model="password" style="margin-right: .5em"/>
+            <input class="signup-fullname" type="text" placeholder="Full Name" required v-model="full_name" style="margin-right: .5em"/>
+            <input class="signup-date" type="date" placeholder="Birth Date" required v-model="birth_date" style="margin-right: .5em"/>
+            <select class="signup-select" required v-model="gender">
                 <option disabled value="">Please select gender</option>
                 <option value="M">Male</option>
                 <option value="F">Female</option>

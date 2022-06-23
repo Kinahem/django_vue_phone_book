@@ -16,6 +16,7 @@
 ### [Лабораторна робота №1](https://docs.google.com/document/d/1ruWMvyN1R3lV7Py5JjYJRC3f93Fw5orgHrrcUUGLe0M/edit?usp=sharing)
 **Загальне завдання:** розробити клієнтську частину Web-додатку.
 
-### Лабораторна робота №2
+### [Лабораторна робота №2](https://docs.google.com/document/d/1AK330JzY7uIaHamQcD8wEr5Lbozrdxek5TAUrLRb_Ig/edit?usp=sharing)
+**Загальне завдання:** розробити засоби сценарії (код) для тестування клієнтської частини (інтерфейсу користувача) Web-додатку.
 
 ### Лабораторна робота №3

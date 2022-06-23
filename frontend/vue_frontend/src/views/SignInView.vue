@@ -1,9 +1,9 @@
 <template>
     <body>
         <p v-if="error_text">{{error_text}}</p>
-        <form @submit.prevent="signIn">
-            <input type="email" placeholder="Email" required v-model="email"/>
-            <input type="password" placeholder="Password" required v-model="password"/>
+        <form class="signin-form" @submit.prevent="signIn">
+            <input class="signin-email" type="email" placeholder="Email" required v-model="email"/>
+            <input class="signin-password" type="password" placeholder="Password" required v-model="password"/>
         <div class="submit">
             <button id="submit_button">Sign In</button>
         </div>

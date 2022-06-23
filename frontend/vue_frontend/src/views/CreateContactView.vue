@@ -1,11 +1,11 @@
 <template>
     <body>
         <h1>Create Contact</h1>
-        <form @submit.prevent="createContact">
-            <input type="text" placeholder="Name" required v-model="full_name" style="margin-right: .5em"/>
-            <input type="number" placeholder="Phone"  v-model="phone" style="margin-right: .5em"/>
-            <input type="email" placeholder="Email" v-model="email" style="margin-right: .5em"/>
-            <input type="text" placeholder="Info" v-model="info" style="margin-right: .5em"/>
+        <form class="create-form" @submit.prevent="createContact">
+            <input class="create-fullname" type="text" placeholder="Name" required v-model="full_name" style="margin-right: .5em"/>
+            <input class="create-number" type="number" placeholder="Phone"  v-model="phone" style="margin-right: .5em"/>
+            <input class="create-email" type="email" placeholder="Email" v-model="email" style="margin-right: .5em"/>
+            <input class="create-info" type="text" placeholder="Info" v-model="info" style="margin-right: .5em"/>
             <div class="submit">
                 <button style="margin-top: .5em">Create Contact</button>
             </div>
