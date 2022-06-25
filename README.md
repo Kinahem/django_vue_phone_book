@@ -19,4 +19,6 @@
 ### [Лабораторна робота №2](https://docs.google.com/document/d/1AK330JzY7uIaHamQcD8wEr5Lbozrdxek5TAUrLRb_Ig/edit?usp=sharing)
 **Загальне завдання:** розробити засоби сценарії (код) для тестування клієнтської частини (інтерфейсу користувача) Web-додатку.
 
-### Лабораторна робота №3
+### [Лабораторна робота №3](https://docs.google.com/document/d/114XvYa1UsvJwK1KIFlZkY8W_G0cDc55JSS4ZYVydZLQ/edit?usp=sharing)
+**Загальне завдання:** розробити мобільний додаток з можливістю з’єднання з серверним додатком з лабораторної роботи №1 дисципліни Технологія розробки Web-додатків.
+**Посилання на репозиторій:** [ContactsApp](https://github.com/Kinahem/ContactsApp)
